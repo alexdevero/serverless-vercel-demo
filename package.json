@@ -1,0 +1,15 @@
+{
+  "name": "serverless-vercel-demo",
+  "private": true,
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "vercel": "^24.2.4"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.15.3",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  }
+}
